@@ -37,7 +37,7 @@ Productores musicales que realizan composiciones originales y quieran ofrecersel
  Edad: 32 años.    
 Ocupación: Estudiante de Lic. en Antropología, estudiante de programación.  
 
--[Fernando Herrera](https://github.com/fherrera2190)
+-[Fernando Herrera](https://github.com/fherrera2190)  
  Edad: 32 años.  
  Ocupación: Técnico Electrónico, estudiante de programación.  
  
