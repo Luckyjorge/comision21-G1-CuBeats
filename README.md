@@ -40,4 +40,10 @@ Ocupación: Estudiante de Lic. en Antropología, estudiante de programación.
 -[Fernando Herrera](https://github.com/fherrera2190)  
  Edad: 32 años.  
  Ocupación: Técnico Electrónico, estudiante de programación.  
- 
+
+ ### Paginas de referencia
+
+-[Airbit](https://airbit.com/explore)  
+-[Traktrain](https://traktrain.com)  
+-[Spotify](https://open.spotify.com)  
+-[Soundcloud](https://soundcloud.com/discover)`
