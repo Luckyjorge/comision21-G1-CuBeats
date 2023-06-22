@@ -25,4 +25,12 @@ Utilizaremos el codigo visto en clases y modularizado segun la necesidad del equ
 -[Jorge Falcón](https://github.com/Luckyjorge)  
 -[Diego Hernández](https://github.com//drinjour)  
 -[Maximiliano Cartier](https://github.com/MaxiCartier)  
--[Fernando Herrera](https://github.com/fherrera2190)
+-[Fernando Herrera](https://github.com/fherrera2190)`
+
+### Paginas de referencia
+
+-[Airbit](https://airbit.com/explore)  
+-[Traktrain](https://traktrain.com)  
+-[Spotify](https://open.spotify.com)  
+-[Soundcloud](https://soundcloud.com/discover)`
+
