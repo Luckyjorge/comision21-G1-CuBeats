@@ -22,6 +22,7 @@ Productores musicales que realizan composiciones originales y quieran ofrecersel
 - ![Git](https://img.shields.io/badge/Git-<Latest>-orange)
 - ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-<Latest>-blueviolet)
 - ![FF](https://img.shields.io/badge/Fundación-<Formar>-blue)
+- [Trello del proyecto](https://trello.com/b/FZ7J8uEu/trabajo-final)
 
 ### Miembros del equipo
 
