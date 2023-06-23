@@ -46,4 +46,4 @@ Ocupación: Estudiante de Lic. en Antropología, estudiante de programación.
 -[Airbit](https://airbit.com/explore)  
 -[Traktrain](https://traktrain.com)  
 -[Spotify](https://open.spotify.com)  
--[Soundcloud](https://soundcloud.com/discover)`
+-[Soundcloud](https://soundcloud.com/discover)
