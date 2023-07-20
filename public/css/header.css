@@ -1,0 +1,107 @@
+body {
+    background-color: #121212;
+}
+
+.header {
+    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+    padding: 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-top-right {
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-top-right a {
+    font-size: .8rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__logo a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 48px;
+    height: 48px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.header-search {
+    position: relative;
+    width: 55%;
+}
+
+.header-search__input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.header-search__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.burger-menu__link {
+    color: white;
+}
+
+.burger-menu__link i {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+main {
+    height: 30vh;
+}
+
+@media(min-width:769px) {
+    .logo__img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header__logo a {
+       font-size: 2rem;
+    }
+
+    .header-top-left {
+        display: none;
+    }
+
+    .header-search {
+        position: relative;
+        width: 30%;
+    }
+}
