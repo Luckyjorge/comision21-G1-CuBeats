@@ -1,7 +1,3 @@
-body {
-    background-color: #121212;
-}
-
 .header {
     background: linear-gradient(135deg, #4366B4, #FC3AD7);
     padding: 15px;
@@ -18,6 +14,10 @@ body {
     border: 2px solid white;
     padding: 8px;
     border-radius: 5px;
+}
+
+.header-nav-menu {
+    display: none;
 }
 
 .header-top-right a {
@@ -51,6 +51,7 @@ body {
     justify-content: center;
 }
 
+/* BARRA DE BUSQUEDA */
 .header-search {
     position: relative;
     width: 55%;
@@ -72,6 +73,7 @@ body {
     border-radius: 6px;
 }
 
+/* SECCION HAMBURGUESA */
 .burger-menu__link {
     color: white;
 }
@@ -82,18 +84,27 @@ body {
     border-radius: 5px;
 }
 
-main {
-    height: 30vh;
-}
-
+/* MEADIAS QUERIES */
 @media(min-width:769px) {
     .logo__img {
         width: 70px;
         height: 70px;
     }
 
+    .header-top {
+        margin-bottom: 10px;
+    }
+
+    .header-nav-menu {
+        display: block;
+    }
+
     .header__logo a {
-       font-size: 2rem;
+        font-size: 2rem;
+    }
+
+    .header-top-right__mobileButton {
+        display: none;
     }
 
     .header-top-left {
@@ -103,5 +114,26 @@ main {
     .header-search {
         position: relative;
         width: 30%;
+    }
+
+    .header-nav-menu__itemlist {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .itemlist__li {
+        text-decoration: none;
+        padding: 0 10px;
+        border-right: 1px solid white;
+    }
+
+    .itemlist__li:last-child {
+        border-right: none;
+    }
+
+    .itemlist__li a {
+        font-size: 1rem;
     }
 }
