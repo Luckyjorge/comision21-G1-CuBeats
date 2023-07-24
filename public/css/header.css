@@ -1,0 +1,139 @@
+.header {
+    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+    padding: 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-top-right {
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-nav-menu {
+    display: none;
+}
+
+.header-top-right a {
+    font-size: .8rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__logo a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 48px;
+    height: 48px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/* BARRA DE BUSQUEDA */
+.header-search {
+    position: relative;
+    width: 55%;
+}
+
+.header-search__input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.header-search__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* SECCION HAMBURGUESA */
+.burger-menu__link {
+    color: white;
+}
+
+.burger-menu__link i {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* MEADIAS QUERIES */
+@media(min-width:769px) {
+    .logo__img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header-top {
+        margin-bottom: 10px;
+    }
+
+    .header-nav-menu {
+        display: block;
+    }
+
+    .header__logo a {
+        font-size: 2rem;
+    }
+
+    .header-top-right__mobileButton {
+        display: none;
+    }
+
+    .header-top-left {
+        display: none;
+    }
+
+    .header-search {
+        position: relative;
+        width: 30%;
+    }
+
+    .header-nav-menu__itemlist {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .itemlist__li {
+        text-decoration: none;
+        padding: 0 10px;
+        border-right: 1px solid white;
+    }
+
+    .itemlist__li:last-child {
+        border-right: none;
+    }
+
+    .itemlist__li a {
+        font-size: 1rem;
+    }
+}
