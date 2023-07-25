@@ -1,0 +1,25 @@
+.cart__button{
+    text-align: center;
+}
+
+.button__buy{
+    background-color: #4366B4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    padding: 6px 10px;
+    width: 40%;
+}
+
+.button__buy:hover{
+    background-color: #883e88;
+}
+
+@media (min-width: 481px) {
+
+    .cart__button{
+       width: 100%;
+       text-align: end;
+    }
+}

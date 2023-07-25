@@ -1,0 +1,142 @@
+
+.shoppingCart{
+    font-size: var(--tipografiaCuBeats);
+    width: 100%;
+}
+
+h5{
+    font-size: 12px;
+}
+
+.container {
+    border: 1px solid #883e88;
+    border-radius: 3%;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+}
+
+.container h4{
+    background-color: #fff;
+    margin-top: -35px;
+    padding: 5px;
+    position: absolute;
+}
+.container__product {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    border-bottom: 1px solid #883e88;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.container__product img {
+  width: 75px;
+  height: 75px;
+}
+
+.container__product__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+}
+
+.container__product i{
+    color: #883e88;
+    font-size: 16px;
+}
+
+.cart {
+   display: flex;
+   flex-direction: column;
+    padding: 10px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: right;
+    width: 92%;
+    margin-bottom: 10px;
+}
+
+.cart-total h5{
+    font-size: 12px;
+}
+
+.cart-total p{
+    font-size: 12px;
+}
+
+.cart-impuesto {
+    text-align: right;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin-bottom: 10px;
+}
+
+.cart-impuesto h5{
+    font-size: 12px;
+}
+
+.cart-impuesto p{
+    font-size: 12px;
+}
+
+.metodos-pagos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #883e88;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (min-width: 481px) {
+
+    .container__product img{
+        margin-right: 30px;
+    }
+
+    .cart {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+     }
+     
+     .cart__box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+
+     .metodos-pagos{
+        order: -1;
+    }
+}
+
+@media (min-width: 769px) {
+   
+    .container {
+        border-radius: 0;
+    }
+
+  
+}
