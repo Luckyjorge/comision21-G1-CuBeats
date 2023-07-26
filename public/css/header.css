@@ -1,6 +1,11 @@
 .header {
     background: linear-gradient(135deg, #4366B4, #FC3AD7);
-    padding: 15px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .header-top {
@@ -10,8 +15,14 @@
     margin-bottom: 20px;
 }
 
+
+.desktop-search {
+    display: none;
+
+}
+
 .header-top-right {
-    border: 2px solid white;
+    background-color: var(--navBackrground);
     padding: 8px;
     border-radius: 5px;
 }
@@ -54,7 +65,7 @@
 /* BARRA DE BUSQUEDA */
 .header-search {
     position: relative;
-    width: 55%;
+    width: 100%;
 }
 
 .header-search__input {
@@ -80,57 +91,72 @@
 
 .burger-menu__link i {
     padding: 10px;
-    border: 2px solid white;
+    background-color: var(--navBackrground);
     border-radius: 5px;
 }
 
 /* MEADIAS QUERIES */
+@media(min-width:481px) {
+    .header-search {
+        width: 80%;
+    }
+}
+
 @media(min-width:769px) {
+
     .logo__img {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
 
     .header-top {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .desktop-search {
+        display: block;
+        width: 100%;
     }
 
     .header-nav-menu {
-        display: block;
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 50%;
     }
 
     .header__logo a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .header-top-right__mobileButton {
         display: none;
     }
 
+    .header-top-right {
+        border: none;
+        display: flex;
+        padding:9px 25px;
+    }
+
     .header-top-left {
         display: none;
     }
 
-    .header-search {
-        position: relative;
-        width: 30%;
+    .header-bottom {
+        display: none;
     }
 
     .header-nav-menu__itemlist {
         display: flex;
         list-style: none;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .itemlist__li {
-        text-decoration: none;
-        padding: 0 10px;
-        border-right: 1px solid white;
-    }
-
-    .itemlist__li:last-child {
-        border-right: none;
+        gap: 20px;
     }
 
     .itemlist__li a {
