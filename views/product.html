@@ -51,7 +51,6 @@
             </div>
         </div>
     </header>
-    <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
     <main class="product__main">
         <div class="main__container">
             <div class="profile-info">
@@ -77,10 +76,27 @@
                         alt="">
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <button><i class="fa-solid fa-play"></i></button>
+            <div class="product-detail">
+                <div class="product-detail__card">
+                    <div class="card-img">
+                        <img src="https://d369yr65ludl8k.cloudfront.net/60x60/147610/47a40e57-5b9e-47ac-ae87-e8f71c59febd.jpg"
+                            alt="">
+                    </div>
+                    <div class="card__info">
+                        <button class="card__favorite"><i class="fa-regular fa-heart"></i></button>
+                        <h4 class="card__title">Titulo</h4>
+                        <h5 class="card__autor">Autor</h5>
+                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+                            labore?</p>
+                    </div>
+                </div> 
+                <div class="card__reproductor">
+                    <audio src="../music/woman.mp3" controls="controls" preload="none">
+                    </audio>
+                </div>
+                <div class="product-detail__compra">
+                    <span>Precio: $300</span>
+                    <button><span>Añadir al carro </span><i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </div>
         </div>
@@ -137,6 +153,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
