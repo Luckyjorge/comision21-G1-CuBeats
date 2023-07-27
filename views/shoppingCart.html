@@ -43,58 +43,52 @@
         </div>
     </header>
     <main class="shoppingCart">
-        <div class="container">
-            <h4>Cart Review</h4>
-            <div class="container__product">
-                <img src="/img/shoppingCart_1.jpg" alt="imagen-artista">
-                <div class="container__product__box">
-                    <h5 class="product-name">Nombre/Artista</h5>
-                    <h5 class="product-track">Track</h5>
-                </div>
-                <p class="product-price">$30.00</p>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </div>
-            <div class="container__product">
-                <img src="/img/shoppingCart_2.jpg" alt="imagen-artista">
-                <div class="container__product__box">
-                    <h5 class="product-name">Nombre/Artista</h5>
-                    <h5 class="product-track">Track</h5>
-                </div>
-                <p class="product-price">$30.00</p>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </div>
-            <div class="container__product">
-                <img src="/img/shoppingCart_3.jpg" alt="imagen-artista">
-                <div class="container__product__box">
-                    <h5 class="product-name">Nombre/Artista</h5>
-                    <h5 class="product-track">Track</h5>
-                </div>
-                <p class="product-price">$30.00</p>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </div>
-            <div class="cart">
-                <div class="cart__box">
-                    <div class="cart-total">
-                        <h5>Total:</h5>
-                        <p>$90.00</p>
-                    </div>
-                    <div class="cart-impuesto">
-                        <h5>Impuesto:</h5>
-                        <p>$135.00</p>
-                    </div>
-                </div>
-                <div class="metodos-pagos">
-                    <i class="fa-brands fa-cc-visa"></i>
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                    <i class="fa-brands fa-bitcoin"></i>
-                    <i class="fa-solid fa-credit-card"></i>
-                </div>
-                <div class="cart__button">
-                    <button class="button__buy" type="submit">Comprar</button>
-                </div>
-            </div>
+        <div class="container__box">
+        <section class="products-container">
+          <div class="product">
+            <img src="/img/shoppingCart_1.jpg" alt="Beat 1">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+
+          <div class="product">
+            <img src="/img/shoppingCart_2.jpg" alt="Beat 2">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+
+          <div class="product">
+            <img src="/img/shoppingCart_3.jpg" alt="Beat 3">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+        </section>
+        
+        <section class="cart-container">
+          <h2>Cart Summary</h2>
+          <p>Total: <span class="total">$90.00</span></p>
+          <p>Impuestos: <span class="impuestos">$135.00</span></p>
+          <div class="metodos-pagos">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-bitcoin"></i>
+            <i class="fa-solid fa-credit-card"></i>
         </div>
-    </main>
+
+        <div class="button__container">
+          <button class="button__cart">Comprar</button>
+          <button class="button__cart">Cancelar</button>
+        </div>
+        
+        </section>
+        </div>
+      </main>
 </body>
 
 </html>

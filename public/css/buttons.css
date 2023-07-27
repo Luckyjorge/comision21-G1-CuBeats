@@ -1,25 +1,23 @@
-.cart__button{
-    text-align: center;
-}
-
-.button__buy{
-    background-color: #4366B4;
-    border: none;
-    border-radius: 5px;
+.button__container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .button__cart {
+    background-color: var(--colorCeleste);
     color: #fff;
-    margin-top: 10px;
-    padding: 6px 10px;
-    width: 40%;
-}
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin: 8px 0;
+  }
+  
+  .button__cart:hover {
+    background-color: var(--colorLila)
+  }
 
-.button__buy:hover{
-    background-color: #883e88;
-}
-
-@media (min-width: 481px) {
-
-    .cart__button{
-       width: 100%;
-       text-align: end;
-    }
-}
