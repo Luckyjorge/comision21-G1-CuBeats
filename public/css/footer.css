@@ -1,18 +1,6 @@
-footer {
-  
-  width: 100%;
-  background-color: #f0f0f0;
-  text-align: center;
-  transition: bottom 0.2s ease-in-out;
-  height: 60px;
-}
-
-.nav-down {
-  bottom: -40px;
-}
 .footer-container {
-  background: linear-gradient(135deg, #4366b4, #fc3ad7);
-  color: white;
+    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+    color: white;
 }
 
 .footer__menu {

@@ -28,7 +28,7 @@ Productores musicales que realizan composiciones originales y quieran ofrecersel
 
 -[Jorge Falcón](https://github.com/Luckyjorge)  
  Edad: 41 años.    
- Ocupación: Tecnico eletronico, estudiante de programación.   
+ Ocupación: Tecnico electronico, estudiante de programación.   
 
 -[Diego Hernández](https://github.com//drinjour)  
  Edad : 27 años.   
