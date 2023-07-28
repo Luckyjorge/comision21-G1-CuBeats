@@ -1,6 +1,7 @@
-footer{
-    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+footer {
+    background: linear-gradient(135deg, var(--navBarColor2), var(--navBarColor1));
 }
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,7 +9,8 @@ footer{
 }
 
 .footer__menu {
-    margin: 0 auto;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
 .footer__logo {

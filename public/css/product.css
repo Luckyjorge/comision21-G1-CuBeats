@@ -1,3 +1,7 @@
+.body__product {
+  background-color: #2B262D;
+}
+
 .product__main {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,36 +25,42 @@
 
 .profile-info h3 {
   text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
 
 .autor-profile img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .autor-redes {
   display: flex;
   justify-content: space-around;
+
 }
 
 .autor-redes i {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* PRODUCT DETAIL */
 .product-detail {
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 .product-detail__card {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  margin: 20px 0;
 }
 
 .card__info {
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .card__info button {
@@ -66,30 +76,81 @@
   margin: auto 0;
 }
 
-.card__favorite {
-  position: absolute;
-  right: 0;
+.card__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:80px;
+}
+
+
+.card__favoriteButton {
+  background: none;
+  border: none;
+  background-color: var(--colorCeleste);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__favoriteButton i {
+  font-size: 1rem;
+}
+
+.card__cartButton {
+  background: none;
+  border: none;
+  background-color: var(--colorCeleste);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__cartButton i {
+  font-size: 1rem;
+  color: #fff;
 }
 
 .card__reproductor audio {
   width: 100%;
+  margin: 20px 0;
 }
 
-.product-detail__compra {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
+@media (min-width:769px) {
+  .main__container {
+    width: 100%;
+  }
+
+  .profile-info {
+    gap: 30px;
+  }
+
+  .autor-page-cover {
+    display: block;
+  }
+
+  .profile-bg__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .product-detail__card {
+    width: 100%;
+  }
+
+  .card__reproductor {
+    width: 100%;
+  }
 }
-
-.product-detail__compra button {
-  border: none;
-  background-color: gray;
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-}
-
-@media (min-width:481px) {}
-

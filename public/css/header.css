@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+    background: linear-gradient(135deg, var(--navBarColor2), var(--navBarColor1));
 }
 
 .header-container {
@@ -142,7 +142,7 @@
     .header-top-right {
         border: none;
         display: flex;
-        padding:9px 25px;
+        padding: 9px 25px;
     }
 
     .header-top-left {
