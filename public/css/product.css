@@ -1,0 +1,28 @@
+.main__container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.autor-page-cover {
+  display: none;
+  position: relative;
+}
+.profile-info h3 {
+  text-align: center;
+}
+.profile-info {
+  display: flex;
+  justify-content: center;
+}
+
+.autor-profile img {
+  width: 200px;
+  height: 200px;
+}
+.autor-redes {
+  display: flex;
+  justify-content: space-around;
+}
+.autor-redes i{
+    font-size: 1.5rem;
+}

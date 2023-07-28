@@ -1,5 +1,9 @@
-.footer-container {
+footer{
     background: linear-gradient(135deg, #4366B4, #FC3AD7);
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
     color: white;
 }
 
