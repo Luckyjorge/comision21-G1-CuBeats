@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+
+<body class="body__shoppingCart">
+    <header class="header">
+        <div class="header-container">
+            <div class="header-top">
+                <div class="header-top-left">
+                    <div class="burger-menu">
+                        <a class="burger-menu__link" href=""><i class="fas fa-bars burger-menu__i"></i></a>
+                    </div>
+                </div>
+                <div class="header__logo">
+                    <a href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo">
+                        <span>CuBeats</span>
+                    </a>
+                    <div class="desktop-search">
+                        <form class="header-search">
+                            <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
+                            <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-top-right">
+                    <a class="header-top-right__mobileButton" href="#">SIGN UP</a>
+                    <nav class="header-nav-menu">
+                        <ul class="header-nav-menu__itemlist">
+                            <li class="itemlist__li"><a href="#">Explorar</a></li>
+                            <li class="itemlist__li"><a href="#">Comprar</a></li>
+                            <li class="itemlist__li"><a href="#">Vender</a></li>
+                        </ul>
+                        <ul class="header-nav-menu__itemlist">
+                            <li class="itemlist__li"><a href="#">Sign up</a></li>
+                            <li class="itemlist__li"><a href="#"> Sign in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <form class="header-search">
+                    <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
+                    <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="main__shoppingCart">
+        <div class="container__box">
+        <section class="products-container">
+          <div class="product">
+            <img src="/img/shoppingCart_1.jpg" alt="Beat 1">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+
+          <div class="product">
+            <img src="/img/shoppingCart_2.jpg" alt="Beat 2">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+
+          <div class="product">
+            <img src="/img/shoppingCart_3.jpg" alt="Beat 3">
+            <h2>Nombre/Artista</h2>
+            <h2>Track</h2>
+            <p>Precio: $30.00</p>
+            <button class="button__cart">Agregar al carrito</button>
+          </div>
+        </section>
+        
+        <section class="cart-container">
+          <h2>Cart Summary</h2>
+          <p>Total: <span class="total">$90.00</span></p>
+          <p>Impuestos: <span class="impuestos">$135.00</span></p>
+          <div class="metodos-pagos">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-bitcoin"></i>
+            <i class="fa-solid fa-credit-card"></i>
+        </div>
+
+        <div class="button__container">
+          <button class="button__cart">Comprar</button>
+          <button class="button__cart">Cancelar</button>
+        </div>
+        
+        </section>
+        </div>
+      </main>
 </body>
+
 </html>
