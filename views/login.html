@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    
+
+<body class="login">
+    <main class="login__main">
+        <form action="/login" class="login__form" method="post">
+            <div class="form__logo">
+                <img src="/img/logotransparente.png" alt="Logo">
+            </div>
+            <h2>Iniciar Sesion</h2>
+            <div class="form-container">
+                <input type="text" placeholder="Usuario" name="userName" id="userName" required />
+                <input type="password" placeholder="Contraseña" name="userPassword" id="userPassword" required />
+                <label><input type="checkbox" id="recordarme" value="recordarme"><span>RECORDARME</span></label>
+                <button type="submit">LOGIN</button>
+                <hr>
+                <p>¿Aún no tienes cuenta? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </main>
 </body>
+
 </html>

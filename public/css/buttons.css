@@ -1,0 +1,22 @@
+.button__container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button__cart {
+  background-color: var(--colorCeleste);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin: 8px 0;
+}
+
+.button__cart:hover {
+  background-color: var(--colorLila)
+}
