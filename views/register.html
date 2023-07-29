@@ -1,83 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Registro</title>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<img src="/img/logotransparente.png" alt="Logo de la empresa" class="logo">
-<h1 class="register__title">Registro de Nuevo Usuario</h1>
-<div class="register__form">
-  <div class="banner-container">
-    <div class="banner-wrap">
-      <div class="banner-box">
-        <img src="/img/logotransparente.png" alt="logo">
-        <!-- form -->
-        <form>
-          <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-          </div>
-          <div class="form-group">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
-          </div>
-          <div class="form-group">
-            <label for="usuario">Nombre de Usuario:</label>
-            <input type="text" id="usuario" name="usuario" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <button type="submit">Registrarse</button>
-          </div>
-        </form>
-        <div class="social-buttons">
-          <button>Registrarse con Google</button>
-          <button>Registrarse con Facebook</button>
-          <button>Registrarse con Outlook</button>
-        </div>
-      </div> 
-      </div>
-    </div>
-  </div>
-</div>
 
-    <!-- <div class="back">
-        <a href="/">< Volver </a>
-    </div>
-    <div class="container">
-        
-        <h2>Registro</h2>
-        <form>
-          <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Registro</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="register">
+  <main class="register__main">
+      <form action="/register" class="register__form" method="post">
+          <div class="form__logo">
+              <img src="/img/logotransparente.png" alt="Logo">
           </div>
-          <div class="form-group">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
+          <h2>Registrarse</h2>
+          <div class="form-container">
+              <input type="text" placeholder="Nombre" name="userName" id="userName" required />
+              <input type="text" placeholder="Apellido" name="userName" id="userName" required />
+              <input type="email" placeholder="Email" name="userPassword" id="userPassword" required />
+              <input type="password" placeholder="Contraseña" name="userName" id="userName" required />
+              <input type="password" placeholder="Repetir contraseña" name="userPassword" id="userPassword" required />
+              <label><input type="checkbox" id="Terminos" value="terminos"><span>Acepto <a href="http://">terminos y condiciones</a></span></label>
+              <button type="submit">Registrarse</button>
+              <button type="reset">Borrar todo</button>
+              <hr>
+              <a href="#">Necesito ayuda</a></p>
           </div>
-          <div class="form-group">
-            <label for="usuario">Nombre de Usuario:</label>
-            <input type="text" id="usuario" name="usuario" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <button type="submit">Registrarse</button>
-          </div>
-        </form>
-        <div class="social-buttons">
-          <button>Registrarse con Google</button>
-          <button>Registrarse con Facebook</button>
-          <button>Registrarse con Outlook</button>
-        </div>
-      </div> -->
+      </form>
+  </main>
 </body>
+
+
 </html>

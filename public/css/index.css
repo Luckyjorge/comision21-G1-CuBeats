@@ -6,7 +6,7 @@ body {
   font-family: "Kanit", "Source Sans Pro", sans-serif;
 }
 
-main {
+#home {
   min-height: 100vh;
   position: relative;
   z-index: 10000;
