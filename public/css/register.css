@@ -1,0 +1,83 @@
+.register {
+  background: linear-gradient(135deg, #4366B4, #FC3AD7);
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+
+.register__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.register__form h2{
+    padding-top: 60px;
+}
+.form-container {
+  width: 80%;
+  /* padding-bottom: 50px; */
+}
+.form__logo {
+  position: absolute;
+  top: -50px;
+}
+.form__logo img {
+  width: 100px;
+  height: 100px;
+}
+.register__form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.7rem;
+}
+.register__form label input {
+  width: max-content;
+}
+
+.register__form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.register__form button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #4366B4;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+button[type="reset"]{
+  background-color: grey;
+}
+.form-container p{
+    padding-top: 20px;
+}
+
+@media (min-width: 481px) {
+  .register__form {
+    width: 450px;
+    margin-top: 7vh;
+  }
+}
+

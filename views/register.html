@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Registro</title>
-    <link rel="stylesheet" href="/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Registro</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    
+
+<body class="register">
+  <main class="register__main">
+      <form action="/register" class="register__form" method="post">
+          <div class="form__logo">
+              <img src="/img/logotransparente.png" alt="Logo">
+          </div>
+          <h2>Registrarse</h2>
+          <div class="form-container">
+              <input type="text" placeholder="Nombre" name="userName" id="userName" required />
+              <input type="text" placeholder="Apellido" name="userName" id="userName" required />
+              <input type="email" placeholder="Email" name="userPassword" id="userPassword" required />
+              <input type="password" placeholder="Contraseña" name="userName" id="userName" required />
+              <input type="password" placeholder="Repetir contraseña" name="userPassword" id="userPassword" required />
+              <label><input type="checkbox" id="Terminos" value="terminos"><span>Acepto <a href="http://">terminos y condiciones</a></span></label>
+              <button type="submit">Registrarse</button>
+              <button type="reset">Borrar todo</button>
+              <hr>
+              <a href="#">Necesito ayuda</a></p>
+          </div>
+      </form>
+  </main>
 </body>
+
+
 </html>
