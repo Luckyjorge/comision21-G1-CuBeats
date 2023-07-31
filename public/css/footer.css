@@ -1,14 +1,16 @@
-footer{
-    background: linear-gradient(135deg, #4366B4, #FC3AD7);
+footer {
+  background: linear-gradient(135deg, #4366b4, #fc3ad7);
 }
+
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
 }
 
 .footer__menu {
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 20px 0;
 }
 
 .footer__logo {
