@@ -18,41 +18,48 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap" rel="stylesheet" />
 </head>
-
-<body>
+<body class="body__index">
   <!-- Header -->
   <header class="header">
-    <div class="header-top">
-      <div class="header-top-left">
-        <div class="burger-menu">
-          <a class="burger-menu__link" href=""><i class="fas fa-bars burger-menu__i"></i></a>
+    <div class="header-container">
+      <div class="header-top">
+        <div class="header-top-left">
+          <div class="burger-menu">
+            <a class="burger-menu__link" href=""><i class="fas fa-bars burger-menu__i"></i></a>
+          </div>
+        </div>
+        <div class="header__logo">
+          <a href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo">
+            <span>CuBeats</span>
+          </a>
+          <div class="desktop-search">
+            <form class="header-search">
+              <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
+              <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="header-top-right">
+          <a class="header-top-right__mobileButton" href="/register">SIGN UP</a>
+          <nav class="header-nav-menu">
+            <ul class="header-nav-menu__itemlist">
+              <li class="itemlist__li"><a href="#">Explorar</a></li>
+              <li class="itemlist__li"><a href="#">Comprar</a></li>
+              <li class="itemlist__li"><a href="#">Vender</a></li>
+            </ul>
+            <ul class="header-nav-menu__itemlist">
+              <li class="itemlist__li"><a href="/register">Sign up</a></li>
+              <li class="itemlist__li"><a href="/login"> Sign in</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="header__logo">
-        <a href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo" />
-          <span>CuBeats</span>
-        </a>
+      <div class="header-bottom">
+        <form class="header-search">
+          <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
+          <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
       </div>
-      <div class="header-top-right">
-        <a class="header-top-right__mobileButton" href="#">SIGN UP</a>
-        <nav class="header-nav-menu">
-          <ul class="header-nav-menu__itemlist">
-            <li class="itemlist__li"><a href="#">Explorar</a></li>
-            <li class="itemlist__li"><a href="#">Comprar</a></li>
-            <li class="itemlist__li"><a href="#">Vender</a></li>
-            <li class="itemlist__li"><a href="/register">Sign Up</a></li>
-            <li class="itemlist__li"><a href="/login"> Login</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="header-bottom">
-      <form class="header-search">
-        <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?" />
-        <button class="header-search__button">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
     </div>
   </header>
   <!-- slider -->
@@ -326,9 +333,8 @@
       </div>
     </div>
   </main>
-
   <!-- footer -->
-  <footer>
+    <footer>
     <div class="footer-container">
       <div class="footer__menu">
         <a class="footer__logo" href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo" />CuBeats</a>
