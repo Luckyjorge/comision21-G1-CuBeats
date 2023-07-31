@@ -1,5 +1,5 @@
 .button__container{
-    width: 50%;
+    width: 51%;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -15,8 +15,18 @@
     border-radius: 8px;
     transition: background-color 0.3s;
     margin: 8px 0;
+    width: 100%;
   }
   
   .button__cart:hover {
     background-color: var(--colorLila)
+  }
+
+  @media (min-width: 769px) {
+
+    .button__cart {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    }
   }
