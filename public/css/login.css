@@ -1,12 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'kanit',sans-serif;   
-
-}
-
-
-.login{
+.login {
+    background: linear-gradient(135deg, var(--navBarColor2), var(--navBarColor1));
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .login__goHome {
+    padding-top: 10px;
+    align-self: self-start;
+  }
+  
+  .login__goHome i {
+    color: #fff;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: var(--navBackrground);
+    border-radius: 10px;
+  }
+  
+  .form-container {
+    flex-grow: 1;
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 450px;
+    max-height: 450px;
+    position: relative;
+  }
+  
+  .login__form h2 {
+    padding-top:50px;
+  }
+  
+  .form-body {
+    width: 80%;
+    padding-bottom: 40px;
+  }
+  
+  .form__logo {
+    position: absolute;
+    top: -45px;
+  }
+  
+  .form__logo img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .login__form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.7rem;
+  }
+  
+  .login__form label input {
+    width: max-content;
+  }
+  
+  .login__form input {
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .login__form button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--colorCeleste);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .form-body p {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .form-body a {
+    text-decoration: none;
+    color: blue;
+  }
+  
