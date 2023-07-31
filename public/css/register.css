@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   color: black;
+  font-family: var(--tipografiaCuBeats);
 }
 
 .register__main {
@@ -13,6 +14,7 @@
   height: 100%;
   margin: 0 auto;
 }
+
 .register__form {
   display: flex;
   flex-direction: column;
@@ -25,27 +27,33 @@
   width: 100%;
   position: relative;
 }
-.register__form h2{
-    padding-top: 60px;
+
+.register__form h2 {
+  padding-top: 60px;
 }
+
 .form-container {
   width: 80%;
   /* padding-bottom: 50px; */
 }
+
 .form__logo {
   position: absolute;
   top: -50px;
 }
+
 .form__logo img {
   width: 100px;
   height: 100px;
 }
+
 .register__form label {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 0.7rem;
 }
+
 .register__form label input {
   width: max-content;
 }
@@ -67,11 +75,13 @@
   padding: 10px;
   margin-bottom: 10px;
 }
-button[type="reset"]{
+
+button[type="reset"] {
   background-color: grey;
 }
-.form-container p{
-    padding-top: 20px;
+
+.form-container p {
+  padding-top: 20px;
 }
 
 
@@ -82,20 +92,21 @@ button[type="reset"]{
 
 /* BOTON AYUDA */
 
-.help a{
+.help a {
   text-decoration: none;
-  color:grey
-
+  color: grey
 }
-.help a:hover{
+
+.help a:hover {
   transform: scale(1.1);
   transition: all 0.3 ease-in-out;
 }
-.help{
+
+.help {
   text-align: right;
   margin: 5px auto;
   width: 40%;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   border: 2px solid #fff;
   border-radius: 20px/50px;
   background-clip: padding-box;
@@ -112,7 +123,7 @@ button[type="reset"]{
   transition: all 0.3s ease-out;
 } */
 .help-toggle:hover {
-  color:#fff;
+  color: #fff;
   background-color: #4366B4;
   border-radius: 10px;
   padding: 3px;
@@ -129,6 +140,7 @@ button[type="reset"]{
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -149,6 +161,7 @@ button[type="reset"]{
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -159,22 +172,42 @@ button[type="reset"]{
   text-decoration: none;
   color: #333;
 }
+
 .popup .close:hover {
   color: #06D85F;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
+
+.goHome {
+  padding-top: 10px;
+  align-self: self-start;
+}
+
+.goHome i {
+  position: relative;
+  right: 150px;
+  color: #fff;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: var(--navBackrground);
+  border-radius: 10px;
+}
+
 /* MEDIA QUERIES */
-@media screen and (max-width: 700px){
-  .box{
+@media screen and (max-width: 700px) {
+  .box {
     width: 70%;
   }
-  .popup{
+
+  .popup {
     width: 70%;
   }
 }
+
 @media (min-width: 481px) {
   .register__form {
     width: 450px;
