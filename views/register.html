@@ -25,9 +25,23 @@
               <button type="submit">Registrarse</button>
               <button type="reset">Borrar todo</button>
               <hr>
-              <a href="#">Necesito ayuda</a></p>
+                <div class="help">
+                  <a class="help-toggle" href="#popup1">Necesito ayuda</a>
+                </div>
+              
           </div>
       </form>
+      <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2>Aca va la ayuda</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            <textarea id="signin_issue" name="signin_issue"
+          rows="5" cols="33" wrap="soft"> Describe brevemente el problema y nos pondremos en contacto contigo
+        </textarea>
+          </div>
+        </div>
+      </div>
   </main>
 </body>
 
