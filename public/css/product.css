@@ -1,5 +1,9 @@
 .body__product {
-  font-family: var(--tipografiaCuBeats), sans-serif;
+ font-family: var(--tipografiaCuBeats), sans-serif;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-height: 100vh;
 }
 
 .product__main {

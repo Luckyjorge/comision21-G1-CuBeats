@@ -73,6 +73,7 @@
     padding: 10px;
     width: 100%;
     border-radius: 6px;
+    outline: none;
 }
 
 .header-search__button {
