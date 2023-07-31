@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(135deg, var(--navBarColor2), var(--navBarColor1));
+    background: linear-gradient(135deg, #4366B4, #FC3AD7);
 }
 
 .header-container {
@@ -73,6 +73,7 @@
     padding: 10px;
     width: 100%;
     border-radius: 6px;
+    outline: none;
 }
 
 .header-search__button {
