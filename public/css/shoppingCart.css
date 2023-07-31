@@ -2,6 +2,7 @@
 .body__shoppingCart {
     background-color: var(--colorCeleste);
     color: #fff;
+    font-family: var(--tipografiaCuBeats);
   }
   
   .main__shoppingCart {
@@ -9,8 +10,6 @@
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    font-family: var(--tipografiaCuBeats);
-   
   }
   
   .container__box {
