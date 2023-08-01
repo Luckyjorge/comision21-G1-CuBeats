@@ -14,12 +14,15 @@
   
   .container__box {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .products-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     width: 100%;
   }
@@ -31,6 +34,7 @@
     border-radius: 10px;
     padding: 16px;
     background-color: #161616;
+    width: 90%;
   }
   
   .product img {
@@ -41,6 +45,11 @@
   
   .product h2 {
     font-size: 16px;
+    margin: 8px 0;
+  }
+
+  .product h4 {
+    font-size: 14px;
     margin: 8px 0;
   }
   
@@ -57,6 +66,7 @@
     border-radius: 10px;
     margin-top: 16px;
     border: 2px solid var(--colorCeleste);
+   
   }
   
   .metodos-pagos {
@@ -75,12 +85,22 @@
   }
   
   @media screen and (min-width: 481px) {
-    .cart-container {
-      margin: 16px;
-      width: 90%;
-      position: relative;
+
+    .products-container {
+      justify-content: space-between;
+      gap: 10px;
     }
-  
+
+    .product {
+      width: 30%;
+    }
+
+    .cart-container {
+      margin: 16 0px;
+      width: 100%;
+      position: relative;
+      }
+    
     .metodos-pagos {
       display: flex;
       flex-direction: row;
@@ -103,12 +123,17 @@
     }
   
     .products-container {
-      width: 60%;
+      width: 65%;
     }
   
+.product{
+  width: 30%;
+}
+
     .cart-container {
       width: 25%;
       position: relative;
+      margin: 16px;
     }
   
     .metodos-pagos {
