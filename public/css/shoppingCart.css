@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   padding: 32px;
+  width: 100%;
 }
 
 .container__box {
@@ -16,6 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+ text-align: center;
 }
 
 .products-container {
@@ -24,6 +26,7 @@
   justify-content: center;
   gap: 10px;
   width: 100%;
+  max-width: 250px;
 }
 
 .product {
@@ -64,17 +67,17 @@
   border-radius: 10px;
   margin-top: 16px;
   border: 2px solid var(--colorCeleste);
-
+text-align: center;
 }
 
 .metodos-pagos {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 24px;
   color: var(--colorCeleste);
   cursor: pointer;
-  width: 70%;
+  width: 100%;
   margin: 8px 0;
 }
 
@@ -82,32 +85,56 @@
   color: var(--colorLila);
 }
 
+.metodos-pagos i{
+  margin-left: 8px;
+}
+
 @media screen and (min-width: 481px) {
 
+  .main__shoppingCart {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 32px;
+    width: 100%;
+  }
+
+  .container__box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
   .products-container {
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: flex-start;
+   align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 450px;
+    width: 100%;
   }
 
   .product {
-    width: 30%;
+    width: 48%;
   }
 
   .cart-container {
     margin: 16 0px;
     width: 100%;
     position: relative;
+    text-align: center;
   }
 
   .metodos-pagos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 24px;
     color: var(--colorCeleste);
     cursor: pointer;
-    width: 50%;
-    margin: 8px 0;
+    width: 100%;
+    margin: 8px ;
   }
 }
 
@@ -118,24 +145,22 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 32px;
-  }
-
-  .products-container {
-    width: 65%;
+    width: 100%;
   }
 
   .product {
-    width: 30%;
+    width: 48%;
   }
 
   .cart-container {
     width: 25%;
     position: relative;
     margin: 0 16px;
+    max-width: 240px;
   }
 
   .metodos-pagos {
-    width: 90%;
+    width: 100%;
   }
 
   .container__box {
