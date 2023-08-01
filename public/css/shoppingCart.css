@@ -1,74 +1,104 @@
-
 .body__shoppingCart {
-    background-color: var(--colorCeleste);
-    color: #fff;
-    font-family: var(--tipografiaCuBeats);
-  }
-  
-  .main__shoppingCart {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 32px;
-  }
-  
-  .container__box {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+  background-color: var(--colorCeleste);
+  color: #fff;
+  font-family: var(--tipografiaCuBeats);
+}
+
+.main__shoppingCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.container__box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.product {
+  text-align: center;
+  border: 2px solid var(--colorCeleste);
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #161616;
+  width: 90%;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.product h2 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.product h4 {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.product p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.cart-container {
+  background-color: #161616;
+  width: 90%;
+  height: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  border: 2px solid var(--colorCeleste);
+
+}
+
+.metodos-pagos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  color: var(--colorCeleste);
+  cursor: pointer;
+  width: 70%;
+  margin: 8px 0;
+}
+
+.metodos-pagos:hover {
+  color: var(--colorLila);
+}
+
+@media screen and (min-width: 481px) {
+
   .products-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
-    width: 100%;
-  }
-  
-  .product {
-    text-align: center;
-    margin: 16 px;
-    border: 2px solid var(--colorCeleste);
-    border-radius: 10px;
-    padding: 16px;
-    background-color: #161616;
-    width: 90%;
-  }
-  
-  .product img {
-    width: 100%;
-    height: 150px;
-    border-radius: 8px;
-  }
-  
-  .product h2 {
-    font-size: 16px;
-    margin: 8px 0;
   }
 
-  .product h4 {
-    font-size: 14px;
-    margin: 8px 0;
+  .product {
+    width: 30%;
   }
-  
-  .product p {
-    font-size: 16px;
-    margin: 8px 0;
-  }
-  
+
   .cart-container {
-    background-color: #161616;
-    width: 90%;
-    height: 50%;
-    padding: 16px;
-    border-radius: 10px;
-    margin-top: 16px;
-    border: 2px solid var(--colorCeleste);
-   
+    margin: 16 0px;
+    width: 100%;
+    position: relative;
   }
-  
+
   .metodos-pagos {
     display: flex;
     flex-direction: row;
@@ -76,74 +106,42 @@
     font-size: 24px;
     color: var(--colorCeleste);
     cursor: pointer;
-    width: 70%;
+    width: 50%;
     margin: 8px 0;
   }
-  
-  .metodos-pagos:hover {
-    color: var(--colorLila);
-  }
-  
-  @media screen and (min-width: 481px) {
-
-    .products-container {
-      justify-content: space-between;
-      gap: 10px;
-    }
-
-    .product {
-      width: 30%;
-    }
-
-    .cart-container {
-      margin: 16 0px;
-      width: 100%;
-      position: relative;
-      }
-    
-    .metodos-pagos {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      font-size: 24px;
-      color: var(--colorCeleste);
-      cursor: pointer;
-      width: 50%;
-      margin: 8px 0;
-    }
-  }
-  
-  @media screen and (min-width: 769px) {
-    .shoppingCart {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-      padding: 32px;
-    }
-  
-    .products-container {
-      width: 65%;
-    }
-  
-.product{
-  width: 30%;
 }
 
-    .cart-container {
-      width: 25%;
-      position: relative;
-      margin: 16px;
-    }
-  
-    .metodos-pagos {
-      width: 90%;
-    }
-  
-    .container__box {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+@media screen and (min-width: 769px) {
+  .shoppingCart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px;
   }
+
+  .products-container {
+    width: 65%;
+  }
+
+  .product {
+    width: 30%;
+  }
+
+  .cart-container {
+    width: 25%;
+    position: relative;
+    margin: 0 16px;
+  }
+
+  .metodos-pagos {
+    width: 90%;
+  }
+
+  .container__box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
