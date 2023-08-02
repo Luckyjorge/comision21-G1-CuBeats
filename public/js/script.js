@@ -1,26 +1,55 @@
 // Slider
 const swiper = new Swiper('.main__slider', {
     loop: true,  
-    slidesPerView: 3,
-    centeredSlides: true, 
-    effect:'coverflow', 
-    coverflowEffect: {          
-    rotate: 50,              
-    depth: 200,              
-    stretch: 30,            
-    modifier: 1,             
-    scale: 1,                
-    slideShadows: false,     
-},                                          
-    pagination: {                     
+    grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-120%", 0, -500],
+        },
+        next: {
+          shadow: true,
+          translate: ["120%", 0, -500],
+        },
+      },
+//     coverflowEffect: {          
+//     rotate: 50,              
+//     depth: 200,              
+//     stretch: 30,            
+//     modifier: 1,             
+//     scale: 1,                
+//     slideShadows: false,     
+// },     
+navigation: {                       
+  enabled: true,
+  nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      
+  },    
+   pagination: {                     
         el: '.swiper-pagination',
+    },          
+    breakpoints: {
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      "@0.75": {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      "@1.00": {
+        slidesPerView: 1,
+        spaceBetween: 40,
+      },
+      "@1.50": {
+        slidesPerView: 1,
+        spaceBetween: 50,
+      },
     },
+});
 
-    navigation: {                       
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-})
 
 
 // Vista del footer
