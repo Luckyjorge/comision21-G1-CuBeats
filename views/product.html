@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body class="body__product">
+<body class="productDetail">
     <header class="header">
         <div class="header-container">
             <div class="header-top">
@@ -29,16 +29,19 @@
                     </div>
                 </div>
                 <div class="header-top-right">
-                    <a class="header-top-right__mobileButton" href="#">SIGN UP</a>
+                    <a class="header-top-right__mobileButton" href="/register">SIGN UP</a>
                     <nav class="header-nav-menu">
                         <ul class="header-nav-menu__itemlist">
-                            <li class="itemlist__li"><a href="#">Explorar</a></li>
-                            <li class="itemlist__li"><a href="#">Comprar</a></li>
-                            <li class="itemlist__li"><a href="#">Vender</a></li>
+                            <li class="itemlist__li"><a href="#">Categorias</a></li>
+
                         </ul>
                         <ul class="header-nav-menu__itemlist">
-                            <li class="itemlist__li"><a href="#">Sign up</a></li>
-                            <li class="itemlist__li"><a href="#"> Sign in</a></li>
+                            <li class="itemlist__li"><a href="/register">Sign up</a></li>
+                            <li class="itemlist__li"><a href="/login"> Sign in</a></li>
+                        </ul>
+                        <ul class="header-nav-menu__itemlist">
+                            <li class="itemlist__li"><a href="/shoppingCart"><i
+                                        class="fa-solid fa-cart-shopping"></i></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -57,8 +60,7 @@
                 <div class="profile-autor">
                     <div class="autor-info">
                         <div class="autor-profile">
-                            <img src="https://www.shutterstock.com/image-vector/user-icon-trendy-flat-style-600w-418179865.jpg"
-                                alt="">
+                            <img src="/img/product.jpg" alt="">
                         </div>
                         <h3 class="autor-name">Autor-Name</h3>
                         <div class="autor-redes">
@@ -76,21 +78,21 @@
                         alt="">
                 </div>
             </div>
+            <hr>
             <div class="product-detail">
                 <div class="product-detail__card">
                     <div class="card-img">
-                        <img src="https://d369yr65ludl8k.cloudfront.net/60x60/147610/47a40e57-5b9e-47ac-ae87-e8f71c59febd.jpg"
-                            alt="">
+                        <img src="/img/gaber.jpg" alt="">
                     </div>
                     <div class="card__info">
-                        <h3 class="card__title">Titulo</h3>
-                        <h4 class="card__autor">Autor</h4>
-                        <p class="card__description">#Rap #Metal #Classic</p>
+                        <h3 class="card__title">Le Gaber</h3>
+                        <h4 class="card__autor">Giogio Gaber</h4>
+                        <p class="card__description">#Italian #Romantic #Classic</p>
                     </div>
                     <div class="card__menu">
-                        <button onclick="alert('hello')" class="card__favoriteButton"><span>100k</span><i
+                        <button class="card__favoriteButton"><span>100k</span><i
                                 class="fa-regular fa-heart"></i></button>
-                        <button onclick="alert('hello')" class="card__cartButton"><span>$30.00</span><i
+                        <button class="card__cartButton"><span>$30.00</span><i
                                 class="fa-solid fa-cart-shopping"></i></button>
                     </div>
                 </div>

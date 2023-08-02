@@ -1,5 +1,6 @@
 .header {
     background: linear-gradient(135deg, #4366B4, #FC3AD7);
+    font-family: var(--tipografiaCuBeats);
 }
 
 .header-container {
@@ -21,12 +22,6 @@
 
 }
 
-.header-top-right {
-    background-color: var(--navBackrground);
-    padding: 8px;
-    border-radius: 5px;
-}
-
 .header-nav-menu {
     display: none;
 }
@@ -36,6 +31,13 @@
     text-decoration: none;
     list-style: none;
     color: white;
+}
+
+.header-top-right__mobileButton {
+    background-color: var(--navBackrground);
+    border-radius: 5px;
+    padding: 10px;
+    white-space: nowrap;
 }
 
 .header-top-left {
@@ -66,6 +68,7 @@
 .header-search {
     position: relative;
     width: 100%;
+    max-width: 400px;
 }
 
 .header-search__input {
@@ -157,10 +160,14 @@
     .header-nav-menu__itemlist {
         display: flex;
         list-style: none;
+        padding: 5px 10px;
         gap: 20px;
+        background-color: var(--navBackrground);
+        border-radius: 5px;
     }
 
     .itemlist__li a {
         font-size: 1rem;
+        white-space: nowrap;
     }
 }
