@@ -1,16 +1,16 @@
 {
-  "name": "comision21-g1-beatmosaic",
-  "version": "1.0.0",
-  "description": "Este es el repositorio para nuestro proyecto final. Aquí compartiremos y colaboraremos en el desarrollo de un sistema de venta online como presentación grupal final del curso de Fullstack de Fundación Formar.",
-  "main": "app.js",
+  "name": "src",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node ./src/bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
