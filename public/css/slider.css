@@ -5,5 +5,29 @@
 
 .main__slider img {
     width: 100%;
+    height: 350px;
+    object-fit: scale-down;
+    object-position: top;
 }
 
+ @media (min-width: 460px) and (max-width:800px) {
+    .main__slider img {
+        width: 100%;
+        height: 250px;
+        object-fit: scale-down; 
+        object-position: top;
+    }
+ }
+ @media (max-width:459px) {
+    .main__slider {
+    display:none
+    }
+    .banner__mobile{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner__mobile img{
+        width: 95%;
+    }
+ }
