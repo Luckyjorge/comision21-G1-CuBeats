@@ -6,63 +6,64 @@
    }) %>
 
 <body class="body__shoppingCart">
-    <%- include('./partials/header.ejs') %>
-    <main class="main__shoppingCart">
-        <div class="container__box">
-        <section class="products-container">
-          <div class="product">
-            <a href="/products/detail"><img src="/img/ariel.jpeg" alt="Beat 1"></a>
-            <h2>Ariel Garramunda</h2>
-            <h4>Ven a Jujuy</h4>
-            <p>Precio: $30.00</p>
-            <button class="button__cart">Eliminar</button>
-          </div>
+  <%- include('./partials/header.ejs') %>
+      <main class="main__shoppingCart">
+          <div class="container__box">
+              <section class="products-container">
+                  <div class="product">
+                      <a href="/products/detail"><img src="/img/ariel.jpeg" alt="Beat 1"></a>
+                      <h2>Ariel Garramunda</h2>
+                      <h4>Ven a Jujuy</h4>
+                      <p>Precio: $30.00</p>
+                      <button class="button__cart">Eliminar</button>
+                  </div>
 
-          <div class="product">
-            <a href="/products/detail"><img src="/img/ibiza.jpeg" alt="Beat 2"></a>
-            <h2>Ibiza Rockefeller</h2>
-            <h4>Juncal y Billinghurst</h4>
-            <p>Precio: $30.00</p>
-            <button class="button__cart">Eliminar</button>
-          </div>
+                  <div class="product">
+                      <a href="/products/detail"><img src="/img/ibiza.jpeg" alt="Beat 2"></a>
+                      <h2>Ibiza Rockefeller</h2>
+                      <h4>Juncal y Billinghurst</h4>
+                      <p>Precio: $30.00</p>
+                      <button class="button__cart">Eliminar</button>
+                  </div>
 
-          <div class="product">
-            <a href="/products/detail"><img src="/img/kachorro.jpeg" alt="Beat 3"></a>
-            <h2>Kachorro DJ</h2>
-            <h4>Vamos al billar</h4>
-            <p>Precio: $30.00</p>
-            <button class="button__cart">Eliminar</button>
-          </div>
-          
-          <div class="product">
-            <a href="/products/detail"><img src="/img/classical.jpeg" alt="Beat 3"></a>
-            <h2>Classical</h2>
-            <h4>Mozart | | Sessions #3</h4>
-            <p>Precio: $30.00</p>
-            <button class="button__cart">Eliminar</button>
-        </section>
-        
-        <section class="cart-container">
-          <h2>Cart Summary</h2>
-          <p>Total: <span class="total">$120.00</span></p>
-          <p>Impuestos: <span class="impuestos">$195.00</span></p>
-          <div class="metodos-pagos">
-            <i class="fa-brands fa-cc-visa"></i>
-            <i class="fa-brands fa-cc-mastercard"></i>
-            <i class="fa-brands fa-bitcoin"></i>
-            <i class="fa-solid fa-credit-card"></i>
-        </div>
+                  <div class="product">
+                      <a href="/products/detail"><img src="/img/kachorro.jpeg" alt="Beat 3"></a>
+                      <h2>Kachorro DJ</h2>
+                      <h4>Vamos al billar</h4>
+                      <p>Precio: $30.00</p>
+                      <button class="button__cart">Eliminar</button>
+                  </div>
 
-        <div class="button__container">
-          <button class="button__cart">Comprar</button>
-          <button class="button__cart">Cancelar</button>
-        </div>
-        
-        </section>
-        </div>
+                  <div class="product">
+                      <a href="/products/detail"><img src="/img/classical.jpeg" alt="Beat 3"></a>
+                      <h2>Classical</h2>
+                      <h4>Mozart | | Sessions #3</h4>
+                      <p>Precio: $30.00</p>
+                      <button class="button__cart">Eliminar</button>
+                  </div>
+              </section>
+
+              <section class="cart-container">
+                  <h2>Cart Summary</h2>
+                  <p>Total: <span class="total">$120.00</span></p>
+                  <p>Impuestos: <span class="impuestos">$195.00</span></p>
+                  <div class="metodos-pagos">
+                      <i class="fa-brands fa-cc-visa"></i>
+                      <i class="fa-brands fa-cc-mastercard"></i>
+                      <i class="fa-brands fa-bitcoin"></i>
+                      <i class="fa-solid fa-credit-card"></i>
+                  </div>
+
+                  <div class="button__container">
+                      <button class="button__cart">Comprar</button>
+                      <button class="button__cart">Cancelar</button>
+                  </div>
+
+              </section>
+          </div>
       </main>
       <%- include('./partials/footer.ejs') %>
-      <%- include('./partials//scripts.ejs') %>
+          <%- include('./partials/scripts.ejs') %>
 </body>
 
 </html>
