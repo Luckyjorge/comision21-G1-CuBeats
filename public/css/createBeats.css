@@ -1,0 +1,142 @@
+.createBeats {
+    font-family: var(--tipografiaCuBeats), sans-serif;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.createBeats__main {
+    max-width: 1200px;
+    margin: 20px auto;
+    flex-grow: 1;
+    color: darkgray;
+
+}
+
+.createBeats-main__section {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.createBeat-form__datos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.createBeats__image-upload {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    border: 1px solid darkgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.createBeat__form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: #1F1B24;
+    background-color: #1F1B24;
+    padding: 40px;
+    max-width: 800px;
+}
+
+.createBeat-form__price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.createBeat__form select {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.createBeat__form input {
+    margin: 10px 0;
+    outline: none;
+    padding: 10px;
+}
+
+.createBeats__audio-upload-inputFile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.createBeats__audio-upload-inputFile i {
+    font-size: 2rem;
+}
+
+.createBeats__image-upload img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.createBeat-form__description {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.createBeat-form__description textarea {
+    resize: none;
+}
+
+
+.createBeat-form__buttons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.createBeat-form__buttons button {
+    color: white;
+    background-color: #FF7597;
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    width: 175px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+@media (min-width:769px) {
+    .createBeat__form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .createBeat-form__datos {
+        width: 50%;
+    }
+
+    .createBeats__image-upload {
+        margin: 0 auto;
+    }
+
+    .createBeat-form__description {
+        width: 70ch;
+        margin: 0 auto;
+    }
+
+    .createBeat-form__buttons {
+        width: 100%;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs',{title:'Creat Beat'}) %>
+
+    <body class="createBeats">
+        <%- include('./partials/header.ejs') %>
+            <main class="createBeats__main">
+                <section class="">
+                    <h1>Subir Beat</h1>
+                    <hr>
+                    <form class="createBeat__form">
+                        <div class="createBeat-form__datos">
+                            <label for="title">Titulo:</label>
+                            <input type="text" name="title" id="title">
+                            <label for="category">Categoría:</label>
+                            <select type="" name="category" id="category">
+                                <option value="">Seleccionar Categoría</option>
+                                <option value="pop">POP</option>
+                                <option value="rock">Rock</option>
+                                <option value="electro">Electro</option>
+                            </select>
+                            <label for="price">Precio:</label>
+                            <input type="text" name="price" id="price">
+                            <div class="createBeats__audio-upload-inputFile">
+                                <div>
+                                    <i class="fa-solid fa-music"></i>
+                                </div>
+                                <input class="createBeats__image-upload-inputFile" type="file"
+                                    placeholder="Subir Imagen" name="" id="">
+                            </div>
+                        </div>
+                        <div class="createBeats__image-upload">
+                            <h3>Beat Image</h3>
+                            <img src="/img/product.jpg" alt="Image-beat">
+                            <input class="createBeats__image-upload-inputFile" type="file" placeholder="Subir Imagen"
+                                name="" id="">
+                        </div>
+                        <div class="createBeat-form__description">
+                            <label for="description">Descripción:</label>
+                            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="createBeat-form__buttons">
+                            <button class="createBeat-form__button--cancelar">Cancelar</button>
+                            <button class="createBeat-form__button--enviar" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <%- include('./partials/footer.ejs')%>
+    </body>
+
+</html>

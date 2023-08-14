@@ -7,5 +7,8 @@ module.exports = {
     },
     addProduct: (req, res) => {
         res.render('createBeats');
+    },
+    editProduct: (req, res) => {
+        res.render('editBeat');
     }
 }

@@ -6,5 +6,5 @@ const router = express.Router();
 router.get('/', indexController.index);
 router.get('/admin', indexController.admin);
 router.get('/create-beat', indexController.addProduct);
-
+router.get('/edit-beat', indexController.editProduct);
 module.exports = router;
