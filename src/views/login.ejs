@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
+<%- include('./partials/head', {
+    title : 'Login'
+   }) %>
 
 <body class="login">
     <main class="login__main">
@@ -30,6 +27,8 @@
             </form>
         </div>
     </main>
+    <%- include('./partials/footer.ejs') %>
+  
     <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </body>
 

@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Registro</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
-</head>
+<%- include('./partials/head', {
+  title : 'Página de Registro'
+ }) %>
 
 <body class="register">
   <main class="register__main">
@@ -47,6 +43,7 @@
         </div>
       </div>
   </main>
+  <%- include('./partials/footer.ejs') %>
 </body>
 
 

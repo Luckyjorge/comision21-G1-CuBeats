@@ -1,67 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+  <%- include('./partials/head', {
+    title : 'CuBeats'
+   }) %>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CuBeats</title>
-
-  <!-- js -->
-  <script src="https://kit.fontawesome.com/44a56e39c1.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-  <!-- css -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="/css/styles.css" />
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap" rel="stylesheet" />
-</head>
 <body class="body__index">
   <!-- Header -->
-  <header class="header">
-    <div class="header-container">
-      <div class="header-top">
-        <div class="header-top-left">
-          <div class="burger-menu">
-            <a class="burger-menu__link" href=""><i class="fas fa-bars burger-menu__i"></i></a>
-          </div>
-        </div>
-        <div class="header__logo">
-          <a href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo">
-            <span>CuBeats</span>
-          </a>
-          <div class="desktop-search">
-            <form class="header-search">
-              <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
-              <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-          </div>
-        </div>
-        <div class="header-top-right">
-          <a class="header-top-right__mobileButton" href="/register">SIGN UP</a>
-          <nav class="header-nav-menu">
-            <ul class="header-nav-menu__itemlist">
-              <li class="itemlist__li"><a href="#">Explorar</a></li>
-              <li class="itemlist__li"><a href="#">Comprar</a></li>
-              <li class="itemlist__li"><a href="/products/shoppingCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
-            <ul class="header-nav-menu__itemlist">
-              <li class="itemlist__li"><a href="/users/register">Sign up</a></li>
-              <li class="itemlist__li"><a href="/users/login"> Sign in</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="header-bottom">
-        <form class="header-search">
-          <input class="header-search__input" type="text" placeholder="¿Qué Estás Buscando?">
-          <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-      </div>
-    </div>
-  </header>
+  <%- include('./partials/header.ejs') %>
   <!-- slider -->
   <div class="swiper main__slider">
     <div class="swiper-wrapper">
@@ -337,62 +282,8 @@
     </div>
   </main>
   <!-- footer -->
-    <footer>
-    <div class="footer-container">
-      <div class="footer__menu">
-        <a class="footer__logo" href="/"><img class="logo__img" src="/img/logotransparente.png" alt="Logo" />CuBeats</a>
-        <div class="footer-map">
-          <nav class="footer-map-nav">
-            <h3 class="footer-map-nav__title">Titulo</h3>
-            <ul class="nav__itemList">
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-            </ul>
-          </nav>
-          <nav>
-            <h3 class="footer-map-nav__title">Titulo</h3>
-            <ul class="nav__itemList">
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-            </ul>
-          </nav>
-          <nav>
-            <h3 class="footer-map-nav__title">Titulo</h3>
-            <ul class="nav__itemList">
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-              <li class="itemList__li"><a href="">item</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="footer_redes">
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-square-twitter"></i>
-        <i class="fa-brands fa-tiktok"></i>
-      </div>
-      <div class="footer__derechos">
-        <p>
-          Los beats presentados aquí no son de nuestra autoría. No nos hacemos
-          responsables de su contenido o derechos de uso.
-        </p>
-      </div>
-    </div>
-  </footer>
+  <%- include('./partials/footer.ejs') %>
+  <%- include('./partials//scripts.ejs') %>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"
-  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src="/js/script.js"></script>
 
 </html>
