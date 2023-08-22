@@ -5,6 +5,9 @@
   color: #4f585e;
   font-family: "Kanit", "Source Sans Pro", sans-serif;
 }
+.swipper img{
+  width: 100%;
+}
 
 #home {
   min-height: 100vh;

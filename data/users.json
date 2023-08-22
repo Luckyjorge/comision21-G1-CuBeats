@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "Fernando",
+        "lastname": "Herrera",
+        "email": "fherrera@gmail.com",
+        "description": "lorem ipsum",
+        "password": "abc1234",
+        "category": "admin",
+        "image": null,
+        "cover": null
+    }
+]

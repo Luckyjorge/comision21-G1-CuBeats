@@ -123,9 +123,8 @@ navigation: {
             .addClass("show");
   
         }
-  
+
         zindex++;
-  
       } else {
         // no cards in view
         $("div.cards")
@@ -136,6 +135,5 @@ navigation: {
   
         zindex++;
       }
-      
     });
   });
